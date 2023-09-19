@@ -8,4 +8,10 @@ from classes.many_to_many import Coffee
 if __name__ == '__main__':
     print("HELLO! :) let's debug")
 
+    c = Coffee("Mocha")
+    print(c.name)
+    c.name = "Mocha123"
+    print(c.name)
+
     ipdb.set_trace()
+
